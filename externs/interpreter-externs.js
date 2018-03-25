@@ -160,3 +160,11 @@ Interpreter.prototype.getProperty = function(obj, name) {};
  *     needs to be called, otherwise undefined.
  */
 Interpreter.prototype.setProperty = function(obj, name, value, opt_descriptor) {};
+var BlocklyStorage = {};
+BlocklyStorage.backupOnUnload = function() {};
+BlocklyStorage.restoreBlocks = function() {};
+BlocklyStorage.link = function() {};
+BlocklyStorage.retrieveXml = function(key) {};
+BlocklyStorage.alert = function(message) {};
+var prettyPrintOne = function(code, lang) {};
+
